@@ -1,6 +1,8 @@
 package v_1_observers
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestObservers(t *testing.T) {
 	// we can register handlers in construct func of higher level type
