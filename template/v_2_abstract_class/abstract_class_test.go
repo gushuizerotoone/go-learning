@@ -4,6 +4,6 @@ import "testing"
 
 func TestAbstractClass(t *testing.T) {
 	service := NewProcessService()
-	service.doSomething("FirstProcessor")
-	service.doSomething("SecondProcessor")
+	service.doSomething(FIRST_RROCESSOR)
+	service.doSomething(SECOND_PROCESSOR)
 }
